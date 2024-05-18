@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+
+}
+
+body {
+    background-color: #e9e7da;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+
+}
+
+nav {
+    max-width: 400px;
+    margin: auto;
+    background-color: #373f27;
+    font-size: 10px;
+    margin-top: 10px;
+
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu-horizontal>li>a {
+    display: block;
+    padding: 10px 27px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal>li:hover {
+    background-color: #636b46;
+    margin: auto;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 100px;
+    background-color: white;
+
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+
+}
+
+.menu-vertical li:hover {
+    background-color: #636b46;
+    margin: auto;
+
+}
+
+.submenu {
+    position: relative;
+    right: -140px;
+    top: 0px;
+    display: block;
+}
+.submenu li:hover {
+    display: flex;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+.container1 {
+    margin: auto;
+    width: 75%;
+    padding: 80px 0px;
+    
+
+}
+.title {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgb(111, 163, 76);
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+
+}
+.us {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.parrafo{
+    width: 60%;
+    padding: 0 10% 0 0;
+    
+
+}
+.textos {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: 
+    rgb(10, 10, 10);
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+
+}
+.info {
+    margin: 10px 0;
+
+}
+.redes {
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(111, 163, 76);
+    text-align: justify;
+    display: contents;  
+    justify-content: center;
+    align-items: center;
+
+
+}
+.rs1 {
+    margin: auto;
+    width: 10px;
+    height: 1px;
+    border-radius: 1px;
+
+}
+
+.img {
+    margin: 0 10px;
+   width: auto;
+   height: 10%;
+
+}
+.imagen {
+
+    width: 100%;
+    border-radius: 5px;
+
+}
